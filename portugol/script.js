@@ -1,0 +1,1 @@
+alert("Olá, deseja aceitar todos os cookies?")
