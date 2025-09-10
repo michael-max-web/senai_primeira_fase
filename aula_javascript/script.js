@@ -12,11 +12,11 @@
 // idade = 18.1
 // alert(idade)
 
-const amor = "meu primeiro amor"
-alert(amor)
+// const amor = "meu primeiro amor"
+// alert(amor)
 
-let amor2 = "meu segundo amor"
-alert(amor)
+// let amor2 = "meu segundo amor"
+// alert(amor)
 
-var antigao
+// var antigao
 
