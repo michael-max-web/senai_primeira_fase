@@ -5,8 +5,7 @@ numero = Number( prompt("Digite o número: "))
 if(numero % 2 == 0){
     alert("Esse número é par")
 }else{
-    alert("Esse número é í
-        mpar")
+    alert("Esse número é ímpar")
     
 }
 
