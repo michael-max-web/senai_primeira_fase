@@ -8,13 +8,13 @@
 body {
    
     &.claro{   
-    background: #eee;
-    color: black;
+    background: #000000;
+    color: rgb(255, 255, 255);
     }
 
     &.escuro{  /* & esta chamando uma classe */
-        background:  #222;
-        color: #FFF;
+        background:  #c94e07;
+        color: #000000;
 
     }
 
@@ -68,7 +68,7 @@ nav {
 
         li {
             a {
-                color: rgb(19, 34, 236);
+                color: #c94e07;(216, 126, 41);
                 text-decoration: none;
                 background: #fff;
                 padding: 2px;
@@ -95,7 +95,7 @@ nav {
     justify-content: space-around;
 } */
 main {
-    background-color: #ccc;
+    background-color: #faeccf;
 
     section {
 

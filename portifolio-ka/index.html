@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KA - Desenvolvedor E-commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">KA<span>.DEV</span></a>
+        <nav class="navbar">
+            <a href="#inicio" class="active">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="conteudo-inicio">
+                <h3>Olá, eu sou</h3>
+                <h1>Michael Douglas</h1>
+                <h2>Conhecido como <span class="apelido-ka">KA</span></h2>
+                <p>Especialista em desenvolvimento de **Sites E-commerce** de alta performance, focando em soluções robustas e que convertem para o seu negócio.</p>
+                <a href="#portfolio" class="btn">Ver Projetos</a>
+            </div>
+            <div class="foto-perfil">
+                <img src="imagens/sua_foto.jpg" alt="Michael Douglas, desenvolvedor KA">
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2 class="heading">Sobre <span>Mim</span></h2>
+            <p>Michael Douglas, ou **KA**, desenvolvedor web focado em criar experiências de compra digitais otimizadas. Minha paixão é transformar ideias de negócios em lojas virtuais funcionais e escaláveis, utilizando as melhores práticas de HTML, CSS e JavaScript.</p>
+            <p>Com X anos de experiência (adicione seus anos), já entreguei lojas virtuais para diversos nichos, sempre com foco em **velocidade**, **usabilidade** e **integração de pagamentos/logística**.</p>
+        </section>
+
+        <section class="habilidades" id="habilidades">
+            <h2 class="heading">Minhas <span>Habilidades</span></h2>
+            <div class="container-habilidades">
+                <div class="habilidade">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Estrutura e estilo responsivo de e-commerce.</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Funcionalidades interativas, carrinhos de compra e validações.</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Plataformas E-commerce</h3>
+                    <p>Experiência em (Magento, Shopify, VTEX, WooCommerce, etc.).</p>
+                </div>
+                <div class="habilidade">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>Integrações</h3>
+                    <p>API's de pagamento (Stripe, PagSeguro, Mercado Pago) e Logística.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Meus <span>Projetos</span></h2>
+            <div class="container-portfolio">
+                <div class="item-portfolio">
+                    <img src="imagens/projeto1.jpg" alt="Projeto E-commerce Loja de Roupas">
+                    <div class="camada-portfolio">
+                        <h4>Loja de Roupas Online</h4>
+                        <p>E-commerce responsivo com foco em experiência do usuário e checkout simplificado.</p>
+                        <a href="URL_DO_PROJETO" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="item-portfolio">
+                    <img src="imagens/projeto2.jpg" alt="Projeto E-commerce Produtos Digitais">
+                    <div class="camada-portfolio">
+                        <h4>Plataforma de Infoprodutos</h4>
+                        <p>Integração com área de membros e sistema de afiliados. Construído com HTML/CSS/JS.</p>
+                        <a href="URL_DO_PROJETO" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section class="contato" id="contato">
+            <h2 class="heading">Entre em <span>Contato</span></h2>
+            <form action="#" id="form-contato">
+                <div class="input-box">
+                    <input type="text" id="nome" placeholder="Nome Completo" required>
+                    <input type="email" id="email" placeholder="Seu Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" id="assunto" placeholder="Assunto (Ex: Orçamento E-commerce)" required>
+                    <input type="tel" id="telefone" placeholder="Telefone (Opcional)">
+                </div>
+                <textarea id="mensagem" cols="30" rows="10" placeholder="Sua Mensagem para KA..." required></textarea>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+                <p id="feedback-contato" style="margin-top: 15px; color: #38a169;"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 KA. Todos os direitos reservados.</p>
+        <div class="links-sociais">
+            <a href="URL_SEU_LINKEDIN" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="URL_SEU_GITHUB" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/SEU_NUMERO" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
